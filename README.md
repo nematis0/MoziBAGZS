@@ -10,4 +10,4 @@
 -Az oldal kiírja a usernek, hogyha már nincs hely az ő általa foglalt vetítésre
 -Tud értékelni megtekintett filmeket (admin hozzájárulása kell -> külön adatbázisba elmenteni)
 
--Több filmből lehet választani, a filmek több időpontban vannak egy nap 
+-Több filmből lehet választani, a filmek több időpontban vannak egy nap
