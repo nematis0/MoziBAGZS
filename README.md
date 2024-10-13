@@ -1,0 +1,2 @@
+# MoziBAGZS
+rand(kitoltesre)
