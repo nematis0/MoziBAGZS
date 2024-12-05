@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGZS Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="warn">
+        <h2>A filmek megtekintéséhez be kell jelentkezned vagy regisztrálnod!</h2>
+    </div>
+    <div class="login-container">
+        <h1>Bejelentkezés</h1>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Felhasználónév</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Jelszó</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btnLogin">Bejelentkezés</button>
+            <button onclick="window.location.href='Register.html'" class="btn">Regisztráció</button>
+        </form>
+    </div>
+
+    <button onclick="window.location.href='Login.html'" class="back-btn">Vissza</button>
+
+</body>
+</html>
