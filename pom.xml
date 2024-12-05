@@ -27,17 +27,26 @@
             <artifactId>javafx-fxml</artifactId>
             <version>20.0.2</version>
         </dependency>
+
+        <!-- MySQL JDBC Driver -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.34</version>
+            <version>8.0.33</version>
         </dependency>
     </dependencies>
 
     <repositories>
+        <!-- Maven Central Repository -->
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+
+        <!-- MySQL Official Repository -->
+        <repository>
+            <id>mysql-repo</id>
+            <url>https://repo.mysql.com/</url>
         </repository>
     </repositories>
 
