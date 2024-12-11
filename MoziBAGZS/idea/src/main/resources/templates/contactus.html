@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/css/all.css}"/>
+    <link rel="stylesheet" th:href="@{/css/index.css}"/>
+    <link rel="stylesheet" th:href="@{/css/contactus.css}"/>
+    <title>Rólunk - Online Mozi Foglalás</title>
+    <style>
+        a, button {
+            display: inline-block;
+            text-decoration: none;
+            color: red;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+        }
+
+        a:hover, button:hover {
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<header></header>
+
+
+<main>
+    <section class="contact-section">
+        <a href="/home" th:classappend="${menu == 'home'} ? 'text-dark' : ''">Vissza</a>
+        <h1>Kapcsolat - Online Mozi Foglalás</h1>
+        <p>
+            Üdvözlünk az BAGZS oldalán, ahol a moziélményed a legfontosabb számunkra!
+            Akár kérdésed van, akár segítségre van szükséged, elkötelezett ügyfélszolgálati csapatunk
+            itt van, hogy a moziélményed különlegessé tegye. Ne habozz kapcsolatba lépni velünk;
+            a filmélményed már vár rád!
+        </p>
+
+        <h2>Hogyan lépj kapcsolatba velünk?</h2>
+        <p>
+            <strong>Email:</strong> <a href="mailto:support@bagzs.com">support@bagzs.com</a><br>
+            <strong>Telefon:</strong> +1-123-4567
+        </p>
+        <h2>Látogass el hozzánk</h2>
+        <p>
+            Online Mozi Foglalás<br>
+            123 Mozisáv<br>
+            Debrecen, 1111<br>
+            Magyarország
+        </p>
+        <h2>Kapcsolódj hozzánk</h2>
+        <ul>
+            <li><strong>Kövess minket Neptunban:</strong> <a
+                    href="https://neptun.unideb.hu/">https://neptun.unideb.hu/</a></li>
+            <li><strong>Kedvelj minket Facebookon:</strong> <a href="https://www.facebook.com/UniDeb.IK">https://www.facebook.com/UniDeb.IK</a>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>BAGZS - Ahol a mozi életre kel. Minden jog fenntartva. © 2024 BAGZS.</p>
+</footer>
+</body>
+
+</html>
