@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="#" th:href="@{/css/bootstrap.css}"/>
+    <link rel="stylesheet" href="#" th:href="@{/css/all.css}"/>
+    <link rel="stylesheet" href="#" th:href="@{/css/index.css}"/>
+</head>
+<body>
+
+<div class="container base">
+    <div class="row base-row">
+        <div class="col-3 menu">
+            <a href="/home" th:classappend="${menu == 'home'} ? 'text-dark' : ''">
+                <div class="logo mb-5 text-center text-light pt-1 pb-1">
+                </div>
+            </a>
+            <ul class="list">
+                <li class="side-panel"><a th:classappend="${menu == 'home'} ? 'text-dark' : ' '" th:href="@{/}"><i
+                        class="fas fa-home"></i>&nbsp;&nbsp;Főoldal</a></li>
+                <li class="side-panel"><a th:href="@{/register}"><i class="fas fa-user-plus"></i>&nbsp;&nbsp;Regisztráció</a>
+                </li>
+                <li class="side-panel"><a th:href="@{/loginForm}"><i class="fas fa-users"></i>&nbsp;&nbsp;Bejelentkezés</a>
+                </li>
+                <li class="side-panel"><a th:href="@{/aboutus}"><i
+                        class="fas fa-address-card"></i>&nbsp;&nbsp;Rólunk</a></li>
+                <li class="side-panel"><a th:href="@{/contactus}"><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-9 register-form">
+            <div class="login">
+                <form action="save" method="post">
+                    <div class="login-head">
+                        <h3>Regisztráció</h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName">Név</label> <input type="text"
+                                                                         class="form-control" id="exampleInputName"
+                                                                         placeholder="Név" name="name">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label> <input
+                            type="email" class="form-control" id="exampleInputEmail1"
+                            name="email" placeholder="Email">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Jelszó</label> <input
+                            type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Jelszó" name="password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Regisztráció</button>
+                </form>
+                <div class="login-register">
+                    <p>
+                        Már regisztráltál? <span><a th:href="@{/loginForm}">Kattints ide!</a></span>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
