@@ -113,6 +113,4 @@ public class Customer {
         return "Customer [bid=" + bid + ", name=" + name + ", email=" + email + ", password=" + password + ", seat="
                 + seat + ", history=" + history + "]";
     }
-
-
 }
