@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #560319;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.about-us-section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s ease;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+/* Colorful Heading */
+h1 {
+    color: #FF5722;
+    text-align: center;
+}
+
+/* Mission and Why Choose Us Headings */
+h2 {
+    color: #FF5722;
+}
+
+/* Mission and Why Choose Us List Styles */
+ul, ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Contact Info */
+p strong {
+    color: #FF5722;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
