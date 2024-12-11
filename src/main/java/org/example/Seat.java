@@ -16,6 +16,7 @@ import javax.persistence.OneToMany;
 @Entity
 public class Seat {
 
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "s_id")
