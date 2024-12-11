@@ -92,6 +92,4 @@ public class CurrentDateOperation {
         return "CurrentDateOperation [DateId=" + DateId + ", showDate=" + showDate + ", showTime=" + showTime
                 + ", seat=" + seat + "]";
     }
-
-
 }
