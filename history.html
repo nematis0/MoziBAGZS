@@ -75,24 +75,14 @@
                             th:classappend="${(history.showOnDate eq #dates.createToday()) or (history.showOnDate.after(#dates.createNow())) ? 'active' : 'deactive'}"></th>
 
                     </tr>
-
-
                     </tbody>
                 </table>
-
-
             </div>
         </div>
     </div>
 
 </div>
 
-<!-- <script th:inline="javascript">
-let str = [[${list1}]];
-let obj = JSON.parse(str);
-console.log(obj.seat);
-document.write(obj);
 
-</script> -->
 </body>
 </html>
