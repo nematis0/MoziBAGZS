@@ -23,5 +23,4 @@ public class BusFilter implements HandlerInterceptor {
         return true;
     }
 
-
 }
