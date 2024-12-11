@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aedff4ec-d7c7-4938-b894-583d14c38f23" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2prSRru5rsFzOo8MaPnecFvFnuX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BusExperimentApplicationTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BusExperimentApplication.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zsobi/Desktop/Project2/ONLINE-MOVIE-BOOKING-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zsobi\Desktop\Project2\ONLINE-MOVIE-BOOKING-main\src\main\resources\templates" />
+      <recent name="C:\Users\zsobi\Desktop\Project2\ONLINE-MOVIE-BOOKING-main\src\main\resources\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zsobi\Desktop\Project2\ONLINE-MOVIE-BOOKING-main\src\main\resources\static\css" />
+      <recent name="C:\Users\zsobi\Desktop\Project2\ONLINE-MOVIE-BOOKING-main\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BusExperimentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="BusExperiment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bus.BusExperimentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aedff4ec-d7c7-4938-b894-583d14c38f23" name="Changes" comment="" />
+      <created>1733522696286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733522696286</updated>
+      <workItem from="1733522697576" duration="5810000" />
+      <workItem from="1733593156513" duration="103000" />
+      <workItem from="1733670074453" duration="11627000" />
+      <workItem from="1733739883232" duration="903000" />
+      <workItem from="1733740931116" duration="33000" />
+      <workItem from="1733740999570" duration="678000" />
+      <workItem from="1733743101470" duration="13698000" />
+      <workItem from="1733826967851" duration="6795000" />
+      <workItem from="1733836751578" duration="2074000" />
+      <workItem from="1733839055157" duration="187000" />
+      <workItem from="1733839293564" duration="1044000" />
+      <workItem from="1733851450812" duration="18700000" />
+      <workItem from="1733872725125" duration="342000" />
+      <workItem from="1733939378731" duration="9729000" />
+      <workItem from="1733951360091" duration="11000" />
+      <workItem from="1733951381640" duration="2277000" />
+      <workItem from="1733954416089" duration="3766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
